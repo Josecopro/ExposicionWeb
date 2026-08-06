@@ -4,77 +4,130 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>¿Por qué el queso es importante para la vida?</title>
-    <meta
-      name="description"
-      content="Una exposición web sobre la importancia del queso en la alimentación, la cultura y la historia."
-    />
+    <meta name="description" content="Exposición web sobre la importancia del queso en la alimentación, la historia y la cultura." />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="hero">
       <div class="hero-content">
-        <p class="eyebrow">Exposición web</p>
+        <p class="eyebrow">Exposición interactiva</p>
         <h1>¿Por qué el queso es importante para la vida?</h1>
         <p class="hero-text">
-          El queso no solo es un alimento, también ha sido parte de la
-          alimentación humana durante siglos gracias a su valor nutricional,
-          su capacidad de conservar alimentos y su importancia cultural.
+          El queso es más que un alimento increible: ha acompañado a la humanidad
+          por siglos como fuente de nutrición, herramienta para conservar alimentos
+          y símbolo de identidad cultural.
         </p>
-        <a href="#importancia" class="btn">Descubre más</a>
+        <div class="hero-actions">
+          <a href="#explora" class="btn btn-primary">Explorar ideas</a>
+          <a href="#galeria" class="btn btn-secondary">Ver imágenes</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <strong>+3,000 años</strong>
+            <span>de historia</span>
+          </div>
+          <div>
+            <strong>100+</strong>
+            <span>tipos de queso</span>
+          </div>
+          <div>
+            <strong>Muy nutritivo</strong>
+            <span>calcio y proteína</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="images/cheese-history.svg" alt="Ilustración de un queso con historia cultural" />
       </div>
     </header>
 
     <main>
-      <section id="importancia" class="section">
-        <h2>1. Una fuente de nutrición</h2>
-        <p>
-          El queso aporta proteínas, calcio, vitaminas y grasas que ayudan al
-          crecimiento y al mantenimiento de los huesos y músculos. En muchos
-          lugares, ha sido una forma práctica de obtener nutrientes de manera
-          sencilla y duradera.
-        </p>
-      </section>
-
-      <section class="section alt">
-        <h2>2. Ayuda a conservar alimentos</h2>
-        <p>
-          Desde tiempos antiguos, el queso fue una manera de aprovechar la leche y
-          prolongar su vida útil. Gracias a la fermentación y el proceso de
-          elaboración, se puede consumir durante más tiempo sin perder gran parte
-          de su valor nutricional.
-        </p>
-      </section>
-
-      <section class="section">
-        <h2>3. Forma parte de la cultura</h2>
-        <p>
-          Cada región tiene sus propios tipos de queso, con sabores, aromas y
-          tradiciones únicas. El queso une a las personas, aparece en celebraciones,
-          comidas familiares y mercados locales de todo el mundo.
-        </p>
-      </section>
-
-      <section class="section alt cards-section">
-        <h2>¿Por qué sigue siendo relevante?</h2>
+      <section id="importancia" class="section intro-section">
+        <div class="section-heading">
+          <p class="eyebrow">Por qué importa</p>
+          <h2>El queso une alimentación, tradición y bienestar</h2>
+        </div>
         <div class="cards">
           <article class="card">
-            <h3>Nutritivo</h3>
-            <p>Contribuye al desarrollo y fortalecimiento del cuerpo.</p>
+            <img src="images/cheese-nutrition.svg" alt="Ilustración sobre nutrición" />
+            <h3>Nutrición</h3>
+            <p>Ofrece proteínas, calcio y vitaminas importantes para el crecimiento y la salud.</p>
           </article>
           <article class="card">
-            <h3>Práctico</h3>
-            <p>Es un alimento que puede conservarse y transportarse con facilidad.</p>
+            <img src="images/cheese-storage.svg" alt="Ilustración sobre conservación" />
+            <h3>Conservación</h3>
+            <p>Permitió aprovechar mejor la leche y mantener alimentos por más tiempo.</p>
           </article>
           <article class="card">
-            <h3>Cultural</h3>
-            <p>Representa tradiciones, identidad y herencia de muchas comunidades.</p>
+            <img src="images/cheese-culture.svg" alt="Ilustración sobre cultura" />
+            <h3>Cultura</h3>
+            <p>Forma parte de recetas, celebraciones y tradiciones en muchos lugares del mundo.</p>
           </article>
         </div>
+      </section>
+
+      <section id="explora" class="section section-dark">
+        <div class="section-heading">
+          <p class="eyebrow">Experimento visual</p>
+          <h2>Descubre tres razones clave con un clic</h2>
+        </div>
+        <div class="tabs" role="tablist" aria-label="Razones del queso">
+          <button class="tab-btn active" data-target="nutrition">Nutrición</button>
+          <button class="tab-btn" data-target="storage">Conservación</button>
+          <button class="tab-btn" data-target="culture">Cultura</button>
+        </div>
+        <div class="tab-panels">
+          <article id="nutrition" class="tab-panel active">
+            <h3>Fortalece el cuerpo</h3>
+            <p>El queso aporta calcio y proteínas que ayudan a construir huesos y músculos.</p>
+          </article>
+          <article id="storage" class="tab-panel">
+            <h3>Ayuda a cuidar los alimentos</h3>
+            <p>Gracias a su elaboración, el queso permitió conservar la leche por más tiempo y reducir desperdicios.</p>
+          </article>
+          <article id="culture" class="tab-panel">
+            <h3>Representa identidad</h3>
+            <p>En cada región tiene un valor simbólico y gastronómico que refleja la historia del lugar.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="galeria" class="section gallery-section">
+        <div class="section-heading">
+          <p class="eyebrow">Imágenes y contexto</p>
+          <h2>Una mirada más visual a su importancia</h2>
+        </div>
+        <div class="gallery">
+          <article class="gallery-item">
+            <img src="images/cheese-nutrition.svg" alt="Representación del valor nutricional del queso" />
+            <h3>Alimento esencial</h3>
+            <p>Ha sido una fuente de energía y nutrientes durante generaciones.</p>
+          </article>
+          <article class="gallery-item">
+            <img src="images/cheese-storage.svg" alt="Representación de la conservación del queso" />
+            <h3>Herramienta de supervivencia</h3>
+            <p>Permitió aprovechar mejor la leche y extender su consumo.</p>
+          </article>
+          <article class="gallery-item">
+            <img src="images/cheese-culture.svg" alt="Representación de la presencia cultural del queso" />
+            <h3>Tradición viva</h3>
+            <p>Se conserva en recetas, mercados y celebraciones de muchas comunidades.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section conclusion">
+        <h2>En resumen</h2>
+        <p>
+          El queso es importante porque combina utilidad, sabor y tradición. Su valor va más allá de la comida: representa progreso, cultura y cuidado del bienestar.
+        </p>
       </section>
     </main>
 
     <footer class="footer">
-      <p>Hecho para una exposición web sobre la importancia del queso en la vida humana.</p>
+      <p>Hecho para una exposición web con diseño mejorado, secciones dinámicas e imágenes ilustrativas.</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
