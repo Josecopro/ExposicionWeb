@@ -7,7 +7,7 @@ buttons.forEach((button) => {
 
     buttons.forEach((btn) => {
       btn.classList.remove('active');
-      btn.setAttribute('aria-selected', 'false');
+      btn.setAttribute('aria-pressed', 'false');
     });
     panels.forEach((panel) => panel.classList.remove('active'));
 
