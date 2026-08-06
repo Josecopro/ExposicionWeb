@@ -1,0 +1,10 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" rx="28" fill="#fff8eb"/>
+  <circle cx="180" cy="200" r="110" fill="#ffd27d"/>
+  <rect x="260" y="120" width="190" height="150" rx="26" fill="#c96b2d"/>
+  <rect x="285" y="145" width="140" height="100" rx="20" fill="#f4d29a"/>
+  <path d="M340 120v30" stroke="#8b3f1f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M300 145c30-35 70-35 100 0" stroke="#8b3f1f" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M160 230c20-18 40-27 60-27 20 0 40 9 60 27" stroke="#8b3f1f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <text x="300" y="340" text-anchor="middle" font-family="Segoe UI, Arial" font-size="22" fill="#8b3f1f">Nutrición y energía</text>
+</svg>
