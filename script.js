@@ -5,10 +5,14 @@ buttons.forEach((button) => {
   button.addEventListener('click', () => {
     const targetId = button.getAttribute('data-target');
 
-    buttons.forEach((btn) => btn.classList.remove('active'));
+    buttons.forEach((btn) => {
+      btn.classList.remove('active');
+      btn.setAttribute('aria-selected', 'false');
+    });
     panels.forEach((panel) => panel.classList.remove('active'));
 
     button.classList.add('active');
+    button.setAttribute('aria-selected', 'true');
     document.getElementById(targetId)?.classList.add('active');
   });
 });
