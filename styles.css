@@ -294,6 +294,15 @@ h1 {
   background: rgba(255, 248, 237, 0.65);
 }
 
+#nutrition {
+  color: black;
+}
+
+#nutrition h3 {
+  color:black;
+}
+
+
 @keyframes fadeIn {
   from {
     opacity: 0;
